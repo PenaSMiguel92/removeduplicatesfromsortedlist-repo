@@ -23,7 +23,7 @@ public class Main {
     public static void printList(ListNode list) {
         String val = "[";
         while (list != null) {
-            val += list.val;
+            val += " " + list.val + " ";
             list = list.next;
         }
         System.out.println(val + "]");
