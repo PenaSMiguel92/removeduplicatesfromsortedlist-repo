@@ -1,5 +1,10 @@
 public class Solution {
     public ListNode deleteDuplicates(ListNode head) {
+        if (head == null)
+            return head;
+        if (head.next == null)
+            return head;
+            
         ListNode ptr1 = head;
         ListNode ptr2 = head;
 
